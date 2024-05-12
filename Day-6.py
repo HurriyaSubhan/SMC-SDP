@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # Load data
 @st.cache
 def load_data():
-    data = pd.read_csv("/exams.csv")
+    data = pd.read_csv("exams.csv")
     return data
 
 # Clean data
